@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) boilerplate bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
+## This project uses:
+- TypeScript
+- NextJS
+- Styled Components
+- Jest
+- React Testing Library
+- Storybook
+- Eslint
+- Prettier
+- Husky
 
 ## Getting Started
 
@@ -12,7 +24,12 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Other commands
+
+- dev: runs your application on localhost:3000
+- build: creates the production build version
+- start: starts a simple server with the build production code
+- lint: runs the linter in all components and pages
 
 ## Learn More
 
