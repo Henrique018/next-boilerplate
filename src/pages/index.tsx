@@ -1,20 +1,9 @@
-import Head from 'next/head';
+import Main from '../components/index';
 
-type Props = {
-	title: string;
-};
-
-export default function Home({ title = 'hello world' }: Props) {
+export default function Home() {
 	return (
-		<div>
-			<Head>
-				<title>{title}</title>
-				<link rel="icon" href="/favicon.ico" />
-			</Head>
-
-			<main>
-				<h1>{title}</h1>
-			</main>
-		</div>
+		<>
+			<Main />
+		</>
 	);
 }

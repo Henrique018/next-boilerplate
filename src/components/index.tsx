@@ -1,7 +1,7 @@
 const Main = () => {
 	return (
 		<main>
-			<h1 role="heading">React avançado</h1>
+			<h1>React avançado</h1>
 		</main>
 	);
 };
