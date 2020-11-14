@@ -32,3 +32,10 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+#pwa generated files
+sw.js
+public/workbox-*.js
+
+# storybook
+storybook-static
